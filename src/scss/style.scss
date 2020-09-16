@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('../img/coffee-photo.jpg') center/cover no-repeat scroll;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100vh;
+
+    
+}
+
+.bg {
+    width: 30%;
+    background-color: rgba(107, 64, 14, 0.5);
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.bg > p {
+    padding: 2.5em;
+    color: white;
+}
+
+.bg > h1 {
+    color: white;
+
+}
+
+.button {
+    font-size: 2.5rem;
+    background-color: red;
+    border:1px solid white;
+    border-radius: 1rem;
+    color: white;
+}
+
